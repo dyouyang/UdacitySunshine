@@ -59,7 +59,8 @@ public class DetailActivity extends ActionBarActivity {
     }
 
     /**
-     * A placeholder fragment containing a simple view.
+     * This fragment displays the weather detail of the list item that was clicked in the main activity.
+     * It also provides a menu item for sharing that item through a ShareActionProvider.
      */
     public static class DetailFragment extends Fragment {
 
